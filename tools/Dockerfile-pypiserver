@@ -1,6 +1,6 @@
 # docker build -t embercsi/pypiserver -f tools/Dockerfile-pypiserver .
 # docker run -d --rm --name pypiserver -p 12345:8080  embercsi/pypiserver
-FROM alpine
+FROM alpine:3.18.3
 RUN apk add --no-cache python2 py2-pip && \
     pip install --no-cache-dir pypiserver && \
     mkdir -p /packages && \
