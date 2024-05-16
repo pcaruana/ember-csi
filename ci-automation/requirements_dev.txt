@@ -5,3 +5,5 @@ tox==2.3.1
 coverage==4.1
 Sphinx==1.4.8
 readme_renderer==21.0
+jinja2>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
+pygments>=2.15.0 # not directly required, pinned by Snyk to avoid a vulnerability
