@@ -3,3 +3,6 @@ recommonmark==0.4.0
 git+https://github.com/akrog/modulefaker.git#egg=modulefaker
 git+https://github.com/akrog/cindermock.git
 git+https://github.com/akrog/nosbrickmock.git
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
